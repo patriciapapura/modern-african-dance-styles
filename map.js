@@ -2,12 +2,22 @@ document.addEventListener('DOMContentLoaded', () => {
     const countryInfo = document.querySelector('.country-info');
     const paths = document.querySelectorAll('path');
     
+    const DEFAULT_INFO_TEXT = "Hover over a country then CLICK to explore its unique dance culture";
+    countryInfo.textContent = '';
+    countryInfo.style.display = 'none';
+    
     // Function to handle country hover
     function handleCountryHover(event) {
         const countryName = event.target.getAttribute('data-name');
         if (countryName) {
             countryInfo.textContent = countryName;
             countryInfo.style.display = 'block';
+            // Position the div near the mouse
+            const mouseX = event.clientX;
+            const mouseY = event.clientY;
+            countryInfo.style.position = 'fixed';
+            countryInfo.style.left = (mouseX + 15) + 'px';
+            countryInfo.style.top = (mouseY + 15) + 'px';
             
             // Update URL with country code
             const countryCode = event.target.getAttribute('data-id');
@@ -19,6 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Function to handle mouse leave
     function handleCountryLeave() {
+        countryInfo.textContent = '';
         countryInfo.style.display = 'none';
     }
 
@@ -26,6 +37,13 @@ document.addEventListener('DOMContentLoaded', () => {
     paths.forEach(path => {
         path.addEventListener('mouseenter', handleCountryHover);
         path.addEventListener('mouseleave', handleCountryLeave);
+        // Also update position as the mouse moves over the country
+        path.addEventListener('mousemove', (event) => {
+            if (countryInfo.style.display === 'block') {
+                countryInfo.style.left = (event.clientX + 15) + 'px';
+                countryInfo.style.top = (event.clientY + 15) + 'px';
+            }
+        });
     });
 
     // Handle initial route

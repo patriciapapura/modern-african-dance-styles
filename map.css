@@ -31,17 +31,14 @@ path:hover {
 }
 
 .country-info {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    background-color: white;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    font-size: 18px;
-    font-weight: bold;
-    color: #333;
-    display: none;
+
+    text-align: center;
+    font-size: 1rem;
+    color: rgb(36, 36, 36);
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 12px;      
+    padding: 0.5em 1em;   
+    margin-top: 2vw;
 }
 
 .text-side, .map-side {
@@ -49,17 +46,20 @@ path:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column; 
+    margin: 1vw;
   }
 
   .text-side {
-    flex-direction: column; 
     justify-content: center;  
     align-items: center; 
     padding: 3vw;
   }
   
   .map-side {
+    gap: 2.5rem; 
   }
+
   .container {
     display: flex;
     width: 100%;
@@ -71,12 +71,12 @@ path:hover {
     font-size: 4rem;
     font-family:initial;
     text-align: center;
+    margin-bottom: 0.5rem;
   }
+
   h2{
-    text-align: center;
     font-size: 1rem;
-    color: rgb(71, 71, 71);
-    background-color: rgba(255, 255, 255, 0.9); 
-    border-radius: 12px;      
-    padding: 0.5em 1em;      
+    text-align: center;
+    color: rgb(255, 229, 195);
+    font-family:serif;
   }

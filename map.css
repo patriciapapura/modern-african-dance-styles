@@ -1,9 +1,6 @@
 html,body {
     margin: 0;
     height: 100%;
-    display: flex;
-    align-items: center; 
-    justify-content: flex-end; 
     font-family: Arial, sans-serif;
     background: 
     url('./assets/asfalt-light.png') repeat,
@@ -29,8 +26,8 @@ path {
 }
 
 path:hover {
-    fill: #a84333; /* deeper yellow on hover */
-    stroke: white /* darker brown on hover */
+    fill: #a84333; 
+    stroke: white 
 }
 
 .country-info {
@@ -47,3 +44,39 @@ path:hover {
     display: none;
 }
 
+.text-side, .map-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-side {
+    flex-direction: column; 
+    justify-content: center;  
+    align-items: center; 
+    padding: 3vw;
+  }
+  
+  .map-side {
+  }
+  .container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  h1{
+    color: rgb(245, 90, 0);
+    font-size: 4rem;
+    font-family:initial;
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+    font-size: 1rem;
+    color: rgb(71, 71, 71);
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 12px;      
+    padding: 0.5em 1em;      
+  }

@@ -1,0 +1,128 @@
+{
+  "NG": {
+    "name": "Nigeria",
+    "flag": "./assets/flags/Nigeria.png",
+    "population": "206 million",
+    "capital": "Abuja",
+    "languages": ["English", "Hausa", "Yoruba", "Igbo", "Fulfulde", "Kanuri", "Ibibio", "Tiv", "Edo", "Urhobo"],
+    "tribes": ["Hausa", "Yoruba", "Igbo", "Fulani", "Kanuri", "Ibibio", "Tiv", "Edo", "Urhobo", "Ijaw"],
+    "dance_styles": ["Shaku Shaku", "Zanku", "Alanta", "Swo", "Gwara Gwara", "Etighi", "Makossa"]
+  },
+  "ZA": {
+    "name": "South Africa",
+    "flag": "./assets/flags/South Africa.png",
+    "population": "60 million",
+    "capital": "Pretoria (administrative), Cape Town (legislative), Bloemfontein (judicial)",
+    "languages": ["Zulu", "Xhosa", "Afrikaans", "English", "Tswana", "Sotho", "Swati", "Venda", "Tsonga", "Ndebele"],
+    "tribes": ["Zulu", "Xhosa", "Sotho", "Tswana", "Venda", "Swazi", "Ndebele", "Tsonga"],
+    "dance_styles": ["Pantsula", "Gqom", "Indlamu", "Kwela", "Sbujwa", "Amapiano"]
+  },
+  "GH": {
+    "name": "Ghana",
+    "flag": "./assets/flags/Ghana.png",
+    "population": "33 million",
+    "capital": "Accra",
+    "languages": ["English", "Twi", "Ga", "Ewe", "Dagbani", "Fante", "Hausa"],
+    "tribes": ["Akan", "Ewe", "Ga-Dangme", "Mole-Dagbani", "Gurma", "Guan"],
+    "dance_styles": ["Azonto", "Alkayida", "Kpalongo", "Adowa", "Agbadza"]
+  },
+  "AO": {
+    "name": "Angola",
+    "flag": "./assets/flags/Angola.png",
+    "population": "36 million",
+    "capital": "Luanda",
+    "languages": ["Portuguese", "Umbundu", "Kimbundu", "Kikongo", "Chokwe", "Ngangela"],
+    "tribes": ["Ovimbundu", "Ambundu", "Bakongo", "Chokwe", "Lunda", "Nganguela"],
+    "dance_styles": ["Kuduro", "Kizomba", "Rebita", "Semba"]
+  },
+  "CI": {
+    "name": "Côte d'Ivoire",
+    "flag": "./assets/flags/Côte d'Ivoire.png",
+    "population": "27 million",
+    "capital": "Yamoussoukro",
+    "languages": ["French", "Baoulé", "Dioula", "Senoufo", "Bété"],
+    "tribes": ["Baoulé", "Bété", "Senoufo", "Malinké", "Dan", "Guro", "Agni"],
+    "dance_styles": ["Coupé-Décalé", "Zoblazo", "Mapouka"]
+  },
+  "SN": {
+    "name": "Senegal",
+    "flag": "./assets/flags/Senegal.png",
+    "population": "18 million",
+    "capital": "Dakar",
+    "languages": ["French", "Wolof", "Pulaar", "Serer", "Diola", "Mandinka"],
+    "tribes": ["Wolof", "Serer", "Toucouleur", "Mandinka", "Jola", "Soninke"],
+    "dance_styles": ["Sabar", "Mbalax", "Yela", "Djembe"]
+  },
+  "CM": {
+    "name": "Cameroon",
+    "flag": "./assets/flags/Cameroon.png",
+    "population": "28 million",
+    "capital": "Yaoundé",
+    "languages": ["French", "English", "Fang", "Ewondo", "Bamileke", "Fulfulde"],
+    "tribes": ["Bamileke", "Bassa", "Beti", "Fang", "Fulani", "Bakossi", "Tikar"],
+    "dance_styles": ["Makossa", "Bikutsi", "Assiko"]
+  },
+  "GA": {
+    "name": "Gabon",
+    "flag": "./assets/flags/Gabon.png",
+    "population": "2.3 million",
+    "capital": "Libreville",
+    "languages": ["French", "Fang", "Myene", "Punu", "Nzebi"],
+    "tribes": ["Fang", "Myene", "Punu", "Nzebi", "Teke"],
+    "dance_styles": ["Bwiti", "Ikokou", "Mvet", "Ndjobi"]
+  },
+  "CD": {
+    "name": "Democratic Republic of the Congo",
+    "flag": "./assets/flags/DR Congo.png",
+    "population": "102 million",
+    "capital": "Kinshasa",
+    "languages": ["French", "Lingala", "Swahili", "Kikongo", "Tshiluba"],
+    "tribes": ["Luba", "Kongo", "Mongo", "Tutsi", "Hutu", "Teke"],
+    "dance_styles": ["Ndombolo", "Soukous", "Kwassa Kwassa", "Mutuashi"]
+  },
+  "CG": {
+    "name": "Republic of the Congo",
+    "flag": "./assets/flags/Republic of the Congo.png",
+    "population": "6 million",
+    "capital": "Brazzaville",
+    "languages": ["French", "Kituba", "Lingala"],
+    "tribes": ["Kongo", "Teke", "Mbochi", "Sangha"],
+    "dance_styles": ["Soukous", "Kwassa Kwassa", "Ngoma"]
+  },
+  "TZ": {
+    "name": "Tanzania",
+    "flag": "./assets/flags/Tanzania.png",
+    "population": "67 million",
+    "capital": "Dodoma",
+    "languages": ["Swahili", "English", "Chaga", "Sukuma", "Haya"],
+    "tribes": ["Sukuma", "Chaga", "Haya", "Nyamwezi", "Hehe", "Zaramo"],
+    "dance_styles": ["Bongo Flava", "Ngoma", "Taarab"]
+  },
+  "KE": {
+    "name": "Kenya",
+    "flag": "./assets/flags/Kenya.png",
+    "population": "56 million",
+    "capital": "Nairobi",
+    "languages": ["Swahili", "English", "Kikuyu", "Luhya", "Luo", "Kamba"],
+    "tribes": ["Kikuyu", "Luo", "Luhya", "Kalenjin", "Kamba", "Maasai"],
+    "dance_styles": ["Ohangla", "Mugithi", "Isukuti", "Benga"]
+  },
+  "MZ": {
+    "name": "Mozambique",
+    "flag": "./assets/flags/Mozambique.png",
+    "population": "34 million",
+    "capital": "Maputo",
+    "languages": ["Portuguese", "Makhuwa", "Sena", "Tsonga", "Ndau"],
+    "tribes": ["Makhuwa", "Tsonga", "Sena", "Shona", "Yao"],
+    "dance_styles": ["Marrabenta", "Xigubo", "Tufu"]
+  },
+  "ZW": {
+    "name": "Zimbabwe",
+    "flag": "./assets/flags/Zimbabwe.png",
+    "population": "16 million",
+    "capital": "Harare",
+    "languages": ["English", "Shona", "Ndebele", "Chewa", "Venda"],
+    "tribes": ["Shona", "Ndebele", "Venda", "Chewa", "Tonga"],
+    "dance_styles": ["Jerusarema", "Muchongoyo", "Mbira", "Sungura"]
+  }
+}

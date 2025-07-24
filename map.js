@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const countryInfo = document.querySelector('.country-info');
     const paths = document.querySelectorAll('path');
     
-    const DEFAULT_INFO_TEXT = "Hover over a country then CLICK to explore its unique dance culture";
+    
     countryInfo.textContent = '';
     countryInfo.style.display = 'none';
     
@@ -44,6 +44,53 @@ document.addEventListener('DOMContentLoaded', () => {
                 countryInfo.style.top = (event.clientY + 15) + 'px';
             }
         });
+    });
+
+    // Load country data from map.json
+    let countryData = {};
+    fetch('map.json')
+      .then(response => response.json())
+      .then(data => { countryData = data; });
+
+    const modal = document.getElementById('country-modal');
+    const modalBody = document.getElementById('country-modal-body');
+    const modalClose = document.querySelector('.country-modal-close');
+
+    function showCountryModal(countryCode) {
+      const info = countryData[countryCode];
+      if (!info) return;
+      modalBody.innerHTML = `
+         <img src="${info.flag}" alt="${info.name} Flag" style="width: 32px; height: auto; vertical-align: middle; margin-right: 8px;" />
+  ${info.name}
+</h2>
+        <ul>
+          <li><strong>Population:</strong> ${info.population}</li>
+          <li><strong>Capital:</strong> ${info.capital}</li>
+          <li><strong>Languages:</strong> ${info.languages.join(', ')}</li>
+          <li><strong>Tribes:</strong> ${info.tribes.join(', ')}</li>
+          <li><strong>Dance Styles:</strong> ${info.dance_styles.join(', ')}</li>
+        </ul>
+      `;
+      modal.style.display = 'flex';
+    }
+
+    modalClose.onclick = function() {
+      modal.style.display = 'none';
+    };
+    window.onclick = function(event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+      }
+    };
+
+    // Add click event to all country paths
+    paths.forEach(path => {
+      path.addEventListener('click', (event) => {
+        const countryCode = event.target.getAttribute('data-id');
+        if (countryCode) {
+          showCountryModal(countryCode);
+        }
+      });
     });
 
     // Handle initial route

@@ -11,7 +11,24 @@
     <div id="country-modal" class="country-modal" style="display:none;">
       <div class="country-modal-content">
         <span class="country-modal-close">&times;</span>
-        <div id="country-modal-body"></div>
+        <div class="modal-header">
+          <img id="modal-flag" src="" alt="Flag" style="width: 32px; height: auto; vertical-align: middle; margin-right: 8px;" />
+          <span id="modal-title"></span>
+        </div>
+        <div class="modal-quick-facts">
+          <div class="quick-facts-title">🧠 Quick Facts:</div>
+          <ul>
+            <li id="modal-capital"></li>
+            <li id="modal-languages"></li>
+            <li id="modal-highlight"></li>
+          </ul>
+        </div>
+        <div class="modal-dance-styles">
+          <!-- Dance styles will be injected here by JS -->
+        </div>
+        <div class="modal-footer">
+          <a id="modal-learn-more" href="#" target="_blank">🌐 Learn More</a>
+        </div>
       </div>
     </div>
     <div class="container">

@@ -59,24 +59,82 @@ document.addEventListener('DOMContentLoaded', () => {
     function showCountryModal(countryCode) {
       const info = countryData[countryCode];
       if (!info) return;
-      modalBody.innerHTML = `
-         <img src="${info.flag}" alt="${info.name} Flag" style="width: 32px; height: auto; vertical-align: middle; margin-right: 8px;" />
-  ${info.name}
-</h2>
-        <ul>
-          <li><strong>Population:</strong> ${info.population}</li>
-          <li><strong>Capital:</strong> ${info.capital}</li>
-          <li><strong>Languages:</strong> ${info.languages.join(', ')}</li>
-          <li><strong>Tribes:</strong> ${info.tribes.join(', ')}</li>
-          <li><strong>Dance Styles:</strong> ${info.dance_styles.join(', ')}</li>
-        </ul>
-      `;
-      modal.style.display = 'flex';
+      
+      try {
+        // Flag and title
+        document.getElementById('modal-flag').src = info.flag;
+        document.getElementById('modal-flag').alt = `${info.name} Flag`;
+        document.getElementById('modal-title').textContent = info.name;
+        
+        // Quick facts
+        const quickFactsList = document.querySelector('.modal-quick-facts ul');
+        quickFactsList.innerHTML = '';
+        // Capital
+        if (info.capital) quickFactsList.innerHTML += `<li><strong>Capital:</strong> ${info.capital}</li>`;
+        // Population
+        if (info.population) quickFactsList.innerHTML += `<li><strong>Population:</strong> ${info.population}</li>`;
+        // Languages
+        if (info.languages) quickFactsList.innerHTML += `<li><strong>Languages:</strong> ${info.languages.join(', ')}</li>`;
+        // Tribes
+        if (info.tribes) quickFactsList.innerHTML += `<li><strong>Major Tribes:</strong> ${info.tribes.join(', ')}</li>`;
+        // Cultural Highlight
+        if (info.highlight) quickFactsList.innerHTML += `<li><strong>Cultural Highlight:</strong> ${info.highlight}</li>`;
+        
+        // Dance styles
+        const stylesContainer = document.querySelector('.modal-dance-styles');
+        stylesContainer.innerHTML = '<div class="dance-title">💃 Dance Styles:</div>';
+        
+        if (info.dance_styles_details) {
+          info.dance_styles_details.forEach(style => {
+            const styleDiv = document.createElement('div');
+            styleDiv.className = 'dance-style-block';
+            
+            let videoHtml = '';
+            if (style.youtube && style.youtube.trim() !== '') {
+              videoHtml = `<div class="dance-style-video">
+                <iframe width="100%" height="180" src="https://www.youtube.com/embed/${style.youtube}" frameborder="0" allowfullscreen></iframe>
+              </div>`;
+            }
+            
+            styleDiv.innerHTML = `
+              <div class="dance-style-name">▶️ ${style.name}</div>
+              ${style.description ? `<div class="dance-style-desc">${style.description}</div>` : ''}
+              ${videoHtml}
+            `;
+            stylesContainer.appendChild(styleDiv);
+          });
+        } else if (info.dance_styles) {
+          // fallback for old data
+          info.dance_styles.forEach(name => {
+            const styleDiv = document.createElement('div');
+            styleDiv.className = 'dance-style-block';
+            styleDiv.innerHTML = `<div class="dance-style-name">▶️ ${name}</div>`;
+            stylesContainer.appendChild(styleDiv);
+          });
+        }
+        
+        // Learn more link
+        const learnMore = document.getElementById('modal-learn-more');
+        if (info.learn_more) {
+          learnMore.href = info.learn_more;
+          learnMore.style.display = '';
+        } else {
+          learnMore.style.display = 'none';
+        }
+        
+        // Show modal
+        modal.style.display = 'flex';
+      } catch (error) {
+        console.error('Error showing modal:', error);
+        // Fallback: show basic modal even if there's an error
+        modal.style.display = 'flex';
+      }
     }
 
-    modalClose.onclick = function() {
-      modal.style.display = 'none';
-    };
+    // Keep X icon close
+    if (modalClose) {
+      modalClose.onclick = function() { modal.style.display = 'none'; };
+    }
     window.onclick = function(event) {
       if (event.target === modal) {
         modal.style.display = 'none';

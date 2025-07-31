@@ -2,11 +2,11 @@
   "NG": {
     "name": "Nigeria",
     "flag": "./assets/flags/Nigeria.png",
-    "population": "206 million",
+    "population": "237 - 238 million",
     "capital": "Abuja",
-    "languages": ["English", "Hausa", "Yoruba", "Igbo", "Fulfulde", "Kanuri", "Ibibio", "Tiv", "Edo", "Urhobo"],
-    "tribes": ["Hausa", "Yoruba", "Igbo", "Fulani", "Kanuri", "Ibibio", "Tiv", "Edo", "Urhobo", "Ijaw"],
-    "dance_styles": ["Shaku Shaku", "Zanku", "Alanta", "Swo", "Gwara Gwara", "Etighi", "Makossa"]
+    "languages": ["Nigeria officially recognizes English; Howeverthere are over 500 languages spoken nationally. Hausa, Yoruba, and Igbo are the major ones spoken by ~60% of the population"],
+    "tribes": ["Nigeria is home to over 500 ethnic groups, reflecting its vast cultural diversity. Among the largest and most widely recognized are the Hausa, Yoruba, and Igbo, who together make up a significant portion of the population. Other major groups include the Fulani (often referred to by their language, Fulfulde), Kanuri, Tiv, Edo, Ibibio, and Urhobo. Each group contributes distinct languages, traditions, and cultural practices that shape the rich social fabric of the nation.",],
+    "dance_styles": ["Naija Fusion", "Shaku", "Konto"]
   },
   "ZA": {
     "name": "South Africa",

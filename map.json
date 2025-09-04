@@ -4,9 +4,23 @@
     "flag": "./assets/flags/Nigeria.png",
     "population": "237 - 238 million",
     "capital": "Abuja",
-    "languages": ["Nigeria officially recognizes English; Howeverthere are over 500 languages spoken nationally. Hausa, Yoruba, and Igbo are the major ones spoken by ~60% of the population"],
-    "tribes": ["Nigeria is home to over 500 ethnic groups, reflecting its vast cultural diversity. Among the largest and most widely recognized are the Hausa, Yoruba, and Igbo, who together make up a significant portion of the population. Other major groups include the Fulani (often referred to by their language, Fulfulde), Kanuri, Tiv, Edo, Ibibio, and Urhobo. Each group contributes distinct languages, traditions, and cultural practices that shape the rich social fabric of the nation.",],
-    "dance_styles": ["Naija Fusion", "Shaku", "Konto"]
+    "languages": ["English", "Hausa", "Yoruba", "Igbo"],
+    "tribes": ["Hausa", "Yoruba", "Igbo", "Fulani", "Kanuri", "Tiv", "Edo", "Ibibio", "Urhobo"],
+    "highlight": "Rich cultural heritage with over 250 ethnic groups",
+    "dance_styles_details": [
+      {
+        "name": "Naija Fusion",
+        "youtube": "https://www.youtube.com/watch?v=3ZysPLE5Jks"
+      },
+      {
+        "name": "Shaku",
+        "youtube": "https://youtu.be/AKvTVZcNVhQ"
+      },
+      {
+        "name": "Konto",
+        "youtube": "https://youtu.be/XvP1N6qb-3o"
+      }
+    ]
   },
   "ZA": {
     "name": "South Africa",
@@ -15,7 +29,39 @@
     "capital": "Pretoria (administrative), Cape Town (legislative), Bloemfontein (judicial)",
     "languages": ["Zulu", "Xhosa", "Afrikaans", "English", "Tswana", "Sotho", "Swati", "Venda", "Tsonga", "Ndebele"],
     "tribes": ["Zulu", "Xhosa", "Sotho", "Tswana", "Venda", "Swazi", "Ndebele", "Tsonga"],
-    "dance_styles": ["Pantsula", "Gqom", "Indlamu", "Kwela", "Sbujwa", "Amapiano"]
+    "highlight": "Diverse cultural landscape with 11 official languages",
+    "dance_styles_details": [
+      {
+        "name": "Pantsula",
+        "description": "Pantsula is a dance that originated during Apartheid in South Africa. In recent years, it’s had a vast resurgence in popularity.",
+        "youtube": "https://www.youtube.com/watch?v=gMgcL0_WGig&t=14s"
+      },
+      {
+        "name": "Survivor",
+        "youtube": "https://www.youtube.com/watch?v=M26JbQfFx9A"
+      },
+      {
+        "name": "Bcardi",
+        "youtube": "https://youtu.be/v8LujndCflk"
+      },
+      {
+        "name": "Sbhujwa",
+        "youtube": "https://youtu.be/-MsIbJR43Zs"
+      },
+      {
+        "name": "Bhenga",
+        "youtube": "https://youtu.be/qXcvtHHKJhk"
+      },
+      {
+        "name": "Amapiano",
+        "description":"It’s a sound that is distinctive, infectious, and uniquely South African, but also commanding global attention. Born out of the townships and influenced by hip hop, house, and jazz, ‘Amapiano’ is more than a genre of music - it’s a culture, a style, and a movement that is both innovative and disruptive in the way it’s transforming the industry.",
+        "youtube": "https://www.youtube.com/watch?feature=shared&t=691&v=-HqTPXrgkHg"
+      },
+      {
+        "name": "Skhothane",
+        "youtube": "https://www.youtube.com/watch?feature=shared&v=6ZyzbFuAJR8"
+      }
+    ]
   },
   "GH": {
     "name": "Ghana",
@@ -24,7 +70,21 @@
     "capital": "Accra",
     "languages": ["English", "Twi", "Ga", "Ewe", "Dagbani", "Fante", "Hausa"],
     "tribes": ["Akan", "Ewe", "Ga-Dangme", "Mole-Dagbani", "Gurma", "Guan"],
-    "dance_styles": ["Azonto", "Alkayida", "Kpalongo", "Adowa", "Agbadza"]
+    "highlight": "Known as the 'Gateway to Africa' with rich cultural traditions",
+    "dance_styles_details": [
+      {
+        "name": "Azonto",
+        "youtube": "https://youtu.be/zXjgLQ0k8hA"
+      },
+      {
+        "name": "Alkayida",
+        "youtube": "https://www.youtube.com/watch?feature=shared&v=pV8qzN_WfLs"
+      },
+      {
+        "name": "Asorkpor",
+        "youtube": "https://www.youtube.com/shorts/WJt797C8-Xg?feature=share"
+      }
+    ]
   },
   "AO": {
     "name": "Angola",
@@ -33,7 +93,24 @@
     "capital": "Luanda",
     "languages": ["Portuguese", "Umbundu", "Kimbundu", "Kikongo", "Chokwe", "Ngangela"],
     "tribes": ["Ovimbundu", "Ambundu", "Bakongo", "Chokwe", "Lunda", "Nganguela"],
-    "dance_styles": ["Kuduro", "Kizomba", "Rebita", "Semba"]
+    "highlight": "Rich cultural heritage with traditional music and dance traditions",
+    "dance_styles_details": [
+      {
+        "name": "Kuduro",
+        "description": "FPA Board Member Jeff Oppenheim was invited to Angola, Africa to explore the contemporary youth culture craze known as Kuduro (roughly translated as Hard Ass).  Jeff traveled from the concert halls and dance clubs in the capital city of Luanda to the to the house parties and streets of the surrounding Favelas.  He interviewed singers, DJs and promoters and discovered first-hand how the music and dance were uniquely Angolan.",
+        "youtube": "https://www.youtube.com/watch?feature=shared&v=cFZ_DD5A1QE"
+      },
+      {
+        "name": "Kizomba",
+        "description": "Have you ever wondered: what is kizomba? Where does it come from? In today's video, we'll tell you exactly what kizomba is. From influences to impact, we'll share everything you need to know about Kizomba.",
+        "youtube": "https://www.youtube.com/watch?v=D4dG2Eo-3zw&t=24s"
+      },
+      {
+        "name": "Afrohouse",
+        "description": "Afrohouse is energetic, it is playful, and it is fun.  The Angolan version of the dance is a combination of Kuduro footwork and Afrohouse specific steps.   We get a taste of the flavor directly from Luanda, Angola.",
+        "youtube": "https://www.youtube.com/watch?v=hkRFkaFT7YM"
+      }
+    ]
   },
   "CI": {
     "name": "Côte d'Ivoire",
@@ -42,7 +119,13 @@
     "capital": "Yamoussoukro",
     "languages": ["French", "Baoulé", "Dioula", "Senoufo", "Bété"],
     "tribes": ["Baoulé", "Bété", "Senoufo", "Malinké", "Dan", "Guro", "Agni"],
-    "dance_styles": ["Coupé-Décalé", "Zoblazo", "Mapouka"]
+    "highlight": "Known for vibrant cultural festivals and traditional dance ceremonies",
+    "dance_styles_details": [
+      {
+        "name": "Coupé-Décalé",
+        "youtube": "https://youtu.be/U1YLBDwrO_w"
+      }
+    ]
   },
   "SN": {
     "name": "Senegal",
@@ -51,7 +134,13 @@
     "capital": "Dakar",
     "languages": ["French", "Wolof", "Pulaar", "Serer", "Diola", "Mandinka"],
     "tribes": ["Wolof", "Serer", "Toucouleur", "Mandinka", "Jola", "Soninke"],
-    "dance_styles": ["Sabar", "Mbalax", "Yela", "Djembe"]
+    "highlight": "Rich cultural traditions with diverse ethnic dance forms",
+    "dance_styles_details": [
+      {
+        "name": "Sabar",
+        "youtube": "https://www.youtube.com/watch?v=NTfLYrUVfhw"
+      }
+    ]
   },
   "CM": {
     "name": "Cameroon",
@@ -60,7 +149,18 @@
     "capital": "Yaoundé",
     "languages": ["French", "English", "Fang", "Ewondo", "Bamileke", "Fulfulde"],
     "tribes": ["Bamileke", "Bassa", "Beti", "Fang", "Fulani", "Bakossi", "Tikar"],
-    "dance_styles": ["Makossa", "Bikutsi", "Assiko"]
+    "highlight": "Diverse cultural landscape with over 250 ethnic groups",
+    "dance_styles_details": [
+      {
+        "name": "Mbole",
+        "youtube": "https://www.youtube.com/watch?feature=shared&v=7EtzdpANoRE"
+      },
+      {
+        "name": "Bikutsi",
+        "description": "The Ewondo, or Yaunde, are centered on Yaoundé, Cameroon's capital, which was named for them. They also populate the eastern Mefou division and the Mfoundi and Nyong and So divisions in the Centre Province. The remainder of their territory lies in the northern portions of the Ocean division in the South Province.",
+        "youtube": "https://www.youtube.com/watch?v=84jNOyNSnJc"
+      }
+    ]
   },
   "GA": {
     "name": "Gabon",
@@ -69,7 +169,21 @@
     "capital": "Libreville",
     "languages": ["French", "Fang", "Myene", "Punu", "Nzebi"],
     "tribes": ["Fang", "Myene", "Punu", "Nzebi", "Teke"],
-    "dance_styles": ["Bwiti", "Ikokou", "Mvet", "Ndjobi"]
+    "highlight": "Rich spiritual traditions with unique ceremonial dances",
+    "dance_styles_details": [
+      {
+        "name": "Jazzé",
+        "youtube": "https://www.youtube.com/watch?v=ZYRz8z3KPgk"
+      },
+      {
+        "name": "Ntcham/Tcham",
+        "youtube": "https://youtu.be/m6EY3FfuyDY"
+      },
+      {
+        "name": "Bolo",
+        "youtube": "https://www.youtube.com/watch?v=8gj20v2GEY8"
+      }
+    ]
   },
   "CD": {
     "name": "Democratic Republic of the Congo",
@@ -78,7 +192,20 @@
     "capital": "Kinshasa",
     "languages": ["French", "Lingala", "Swahili", "Kikongo", "Tshiluba"],
     "tribes": ["Luba", "Kongo", "Mongo", "Tutsi", "Hutu", "Teke"],
-    "dance_styles": ["Ndombolo", "Soukous", "Kwassa Kwassa", "Mutuashi"]
+    "highlight": "Birthplace of many influential African dance and music styles",
+    "dance_styles_details": [
+      {
+        "name": "Ndombolo",
+        "description": "This video discusses the intricacy around the paternity of the Ndombolo dance. Amongst other things, it discusses how innovative dances come about in the Afro-musical landscape.",
+        "youtube": "https://www.youtube.com/watch?feature=shared&v=EKGyB_YVhfM"
+      },
+
+      {
+        "name": "Kwassa Kwassa",
+        "description": "Back to the 80's - One of the most popular dance from Zaire, Kwasa kwasa was created by a young mechanic man of Kinshasa, Janora",
+        "youtube": "https://www.youtube.com/watch?v=WpVTHiVUUZg"
+      }
+    ]
   },
   "CG": {
     "name": "Republic of the Congo",
@@ -87,7 +214,19 @@
     "capital": "Brazzaville",
     "languages": ["French", "Kituba", "Lingala"],
     "tribes": ["Kongo", "Teke", "Mbochi", "Sangha"],
-    "dance_styles": ["Soukous", "Kwassa Kwassa", "Ngoma"]
+    "highlight": "Rich cultural heritage with traditional dance traditions",
+    "dance_styles_details": [
+      {
+        "name": "Ndombolo",
+        "description": "This video discusses the intricacy around the paternity of the Ndombolo dance. Amongst other things, it discusses how innovative dances come about in the Afro-musical landscape.",
+        "youtube": "https://www.youtube.com/watch?feature=shared&v=EKGyB_YVhfM"
+      },
+      {
+        "name": "Kwassa Kwassa",
+        "description": "Back to the 80's - One of the most popular dance from Zaire, Kwasa kwasa was created by a young mechanic man of Kinshasa, Janora",
+        "youtube": "https://www.youtube.com/watch?v=WpVTHiVUUZg"
+      }
+    ]
   },
   "TZ": {
     "name": "Tanzania",
@@ -96,7 +235,13 @@
     "capital": "Dodoma",
     "languages": ["Swahili", "English", "Chaga", "Sukuma", "Haya"],
     "tribes": ["Sukuma", "Chaga", "Haya", "Nyamwezi", "Hehe", "Zaramo"],
-    "dance_styles": ["Bongo Flava", "Ngoma", "Taarab"]
+    "highlight": "Diverse cultural traditions with over 120 ethnic groups",
+    "dance_styles_details": [
+      {
+        "name": "Bongo Flava",
+        "youtube": "https://youtu.be/Pmb9BtRk2NM"
+      }
+    ]
   },
   "KE": {
     "name": "Kenya",
@@ -105,7 +250,13 @@
     "capital": "Nairobi",
     "languages": ["Swahili", "English", "Kikuyu", "Luhya", "Luo", "Kamba"],
     "tribes": ["Kikuyu", "Luo", "Luhya", "Kalenjin", "Kamba", "Maasai"],
-    "dance_styles": ["Ohangla", "Mugithi", "Isukuti", "Benga"]
+    "highlight": "Rich cultural diversity with traditional and modern dance forms",
+    "dance_styles_details": [
+      {
+        "name": "Odi Dance",
+        "youtube": "https://www.youtube.com/watch?feature=shared&t=26&v=wIPD1Gfxy5w"
+      }
+    ]
   },
   "MZ": {
     "name": "Mozambique",
@@ -114,7 +265,14 @@
     "capital": "Maputo",
     "languages": ["Portuguese", "Makhuwa", "Sena", "Tsonga", "Ndau"],
     "tribes": ["Makhuwa", "Tsonga", "Sena", "Shona", "Yao"],
-    "dance_styles": ["Marrabenta", "Xigubo", "Tufu"]
+    "highlight": "Rich cultural heritage with diverse traditional dance forms",
+    "dance_styles_details": [
+      {
+        "name": "Xibelani",
+        "description": "** ALSO CONSIDERED SOUTH AFRICAN AND ZIMBABWEAN, AS IT’S THE DANCE STYLE OF THE TSONGA PEOPLE",
+        "youtube": "https://youtu.be/sK37JGcswzw"
+      }
+    ]
   },
   "ZW": {
     "name": "Zimbabwe",
@@ -123,6 +281,12 @@
     "capital": "Harare",
     "languages": ["English", "Shona", "Ndebele", "Chewa", "Venda"],
     "tribes": ["Shona", "Ndebele", "Venda", "Chewa", "Tonga"],
-    "dance_styles": ["Jerusarema", "Muchongoyo", "Mbira", "Sungura"]
+    "highlight": "Rich cultural traditions with traditional dance and music heritage",
+    "dance_styles_details": [
+      {
+        "name": "Borrowdale Dance",
+        "youtube": "https://youtu.be/dYYjNH_TQyg"
+      }
+    ]
   }
 }
